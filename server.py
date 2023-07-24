@@ -38,7 +38,6 @@ def handle_client(client_socket):
 
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    print(socket.gethostbyaddr("192.168.1.76"))
     server.bind((host, port))
     server.listen(5)
     print(f"[*] Listening on {host}:{port}")
