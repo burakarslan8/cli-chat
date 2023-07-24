@@ -25,9 +25,7 @@ def main():
 
     commands = [
         'hostname',
-        'uptime',
-        'cd cli-chat',
-        'python3 cli-chat/server.py'
+        'uptime'
     ]
 
     for cmd in commands:

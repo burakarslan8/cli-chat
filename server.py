@@ -7,7 +7,7 @@ clients = []
 global host 
 global port
 
-with open('config.json') as f:
+with open('cli-chat/config.json') as f:
     config = json.load(f)
     host = config['host']
     port = config['port']
